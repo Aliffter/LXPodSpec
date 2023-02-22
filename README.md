@@ -1,0 +1,2 @@
+# LXPodSpec
+my pod spec
