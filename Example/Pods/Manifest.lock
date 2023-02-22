@@ -19,7 +19,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LXMasonry (0.1.0):
+  - LXMasonry (0.1.1):
     - AFNetworking
 
 DEPENDENCIES:
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LXMasonry: 132d85e5c8dc51bbd2a48b92a91a45d59fb6f43a
+  LXMasonry: 02b144583766f27a932517b3169b4ffa9be37e43
 
 PODFILE CHECKSUM: 37eea8ea15570cfdb6cc4be56e14c4469def0fc6
 
