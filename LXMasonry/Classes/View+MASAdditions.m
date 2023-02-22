@@ -10,7 +10,9 @@
 #import <objc/runtime.h>
 
 @implementation MAS_VIEW (MASAdditions)
-
++(void)test{
+    NSLog(@"Test");
+}
 - (NSArray *)mas_makeConstraints:(void(^)(MASConstraintMaker *))block {
     self.translatesAutoresizingMaskIntoConstraints = NO;
     MASConstraintMaker *constraintMaker = [[MASConstraintMaker alloc] initWithView:self];

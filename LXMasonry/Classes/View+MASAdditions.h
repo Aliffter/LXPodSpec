@@ -106,4 +106,5 @@
  */
 - (NSArray *)mas_remakeConstraints:(void(NS_NOESCAPE ^)(MASConstraintMaker *make))block;
 
++(void)test;
 @end
