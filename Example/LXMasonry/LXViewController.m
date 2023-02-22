@@ -7,7 +7,7 @@
 //
 
 #import "LXViewController.h"
-
+#import "Masonry.h"
 @interface LXViewController ()
 
 @end
@@ -17,7 +17,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = UIColor.lightGrayColor;
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    UIImageView *v = [[UIImageView alloc] init];
+    v.backgroundColor = UIColor.redColor;
+//    v.backgroundColor = UIColor.redColor;
+    v.image = [UIImage imageNamed:@"me_right_arrow_dark"];
+    [self.view addSubview:v];
+    [v mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.height.equalTo(@200);
+        make.center.equalTo(self.view);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

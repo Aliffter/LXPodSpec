@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D7D6ED29A5D9BD00B23E07 /* LXMasonry in Resources */ = {isa = PBXBuildFile; fileRef = 30D7D6EC29A5D9BD00B23E07 /* LXMasonry */; };
 		4470E96425C65FDD79351AE2 /* Pods_LXMasonry_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F1059AD61C9FD04C664DE1 /* Pods_LXMasonry_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,6 +41,7 @@
 		0F672D6592DE04707DC1DC66 /* Pods_LXMasonry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXMasonry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEB0795FEC67152778FC603 /* Pods-LXMasonry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMasonry_Example.release.xcconfig"; path = "Target Support Files/Pods-LXMasonry_Example/Pods-LXMasonry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24F1059AD61C9FD04C664DE1 /* Pods_LXMasonry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXMasonry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D7D6EC29A5D9BD00B23E07 /* LXMasonry */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LXMasonry; path = ../../LXMasonry; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LXMasonry_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXMasonry_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +61,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AA44876B9411C8A8565A732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6AA44876B9411C8A8565A732 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877C2A0B8FCD327A01E8FA3E /* Pods-LXMasonry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMasonry_Example.debug.xcconfig"; path = "Target Support Files/Pods-LXMasonry_Example/Pods-LXMasonry_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		953C48532F308C4AAE9A56B1 /* Pods-LXMasonry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMasonry_Tests.release.xcconfig"; path = "Target Support Files/Pods-LXMasonry_Tests/Pods-LXMasonry_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BDCEF562DFE0334ABAEE48F6 /* LXMasonry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LXMasonry.podspec; path = ../LXMasonry.podspec; sourceTree = "<group>"; };
-		EA1C3709B3CC2DC1DE95BCDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDCEF562DFE0334ABAEE48F6 /* LXMasonry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LXMasonry.podspec; path = ../LXMasonry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA1C3709B3CC2DC1DE95BCDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EE3353D5F3ED31B6D32D5A50 /* Pods-LXMasonry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMasonry_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LXMasonry_Tests/Pods-LXMasonry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for LXMasonry */ = {
 			isa = PBXGroup;
 			children = (
+				30D7D6EC29A5D9BD00B23E07 /* LXMasonry */,
 				6003F59C195388D20070C39A /* LXAppDelegate.h */,
 				6003F59D195388D20070C39A /* LXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +196,6 @@
 				EE3353D5F3ED31B6D32D5A50 /* Pods-LXMasonry_Tests.debug.xcconfig */,
 				953C48532F308C4AAE9A56B1 /* Pods-LXMasonry_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,6 +284,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				30D7D6ED29A5D9BD00B23E07 /* LXMasonry in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,10 +347,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LXMasonry_Example/Pods-LXMasonry_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/LXMasonry/LXMasonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LXMasonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

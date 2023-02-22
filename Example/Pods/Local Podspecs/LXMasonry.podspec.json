@@ -1,0 +1,32 @@
+{
+  "name": "LXMasonry",
+  "version": "0.1.0",
+  "summary": "MY Spec test",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aliffter/LXMasonry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zlx": "zhaolongxiao1991@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Aliffter/LXMasonry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LXMasonry/Classes/**/*",
+  "resource_bundles": {
+    "LXMasonry": [
+      "LXMasonry/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

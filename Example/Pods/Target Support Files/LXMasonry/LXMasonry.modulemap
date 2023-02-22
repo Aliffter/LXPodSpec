@@ -1,0 +1,6 @@
+framework module LXMasonry {
+  umbrella header "LXMasonry-umbrella.h"
+
+  export *
+  module * { export * }
+}
